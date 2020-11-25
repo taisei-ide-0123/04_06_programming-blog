@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #464c56;
+  color: #fff;
+}
+
+header p {
+  font-size: 30px;
+  font-family: "Comic Sans MS";
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.title input {
+  width: 100%;
+  height: 70px;
+  border-color: lightgrey;
+  font-size: 20px;
+}
+
+.details textarea {
+  width: 100%;
+  border-top-color: #fff;
+  border-bottom-color: lightgrey;
+}
+
+.post {
+  width: 100%;
+  height: 70px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 30px;
+  background-color: #464c56;
+  color: #fff;
+  border-style: none;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: grey;
+  margin-top: 2px;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#output li {
+  list-style: none;
+  width: 70%;
+  background: #fff;
+  border-radius: 10px;
+  border: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.b_title {
+  width: 90%;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 1px;
+  font-family: inherit;
+  font-size: 20px;
+  word-break: keep-all;
+}
+
+.contents {
+  width: 90%;
+  margin: 5px 0;
+  padding: 10px 0;
+  font-family: inherit;
+  border-bottom: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 1px;
+  word-break: keep-all;
+}
+
+.date {
+  width: 90%;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 5px;
+  color: grey;
+  border-bottom: solid;
+  border-bottom-color: lightgrey;
+  border-bottom-width: 1px;
+}

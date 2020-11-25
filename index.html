@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>programming Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <p>programming Blog</p>
+  </header>
+  <div class="title">
+    <input type="text" id="title" placeholder="タイトル：記事のタイトルをつけよう">
+  </div>
+  <div class="details">
+    <textarea name="text" id="text" cols="30" rows="10"
+      placeholder="今日1日プログラミングを勉強して学んだことを書いてください。&#13;&#13;コードを載せたり、具体的に書きましょう。"></textarea>
+  </div>
+  <div class="post">
+    <div class="button">
+      <button id="send">投稿する</button>
+    </div>
+  </div>
+  <!-- データの出力場所 -->
+  <div>
+    <ul id="output"></ul>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- 以下にfirebaseのコードを貼り付けよう -->
+  <!--The core Firebase JS SDK is always required and must be listed first-->
+  <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+  <!--TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
